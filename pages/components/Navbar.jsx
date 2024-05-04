@@ -11,7 +11,6 @@ function Navbar() {
       <a href="#QR-Generator">QR Generator</a>
        <a href="#scanner">Scanner </a>
     </span>
-    <i className="ri-menu-fill"></i>
 </nav>
   )
 }

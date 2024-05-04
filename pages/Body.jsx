@@ -118,12 +118,12 @@ function Body() {
             }
         })
         tl.to("#phone_m1", {
-            top: "215%",
+            top: "225%",
             left: "5%",
             duration: 0.1
         }, 'orange')
         tl.to("#qr-img_m1", {
-            top: "220%",
+            top: "225%",
             left: "5%",
             duration: 0.1
         }, 'orange')
