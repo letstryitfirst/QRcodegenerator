@@ -119,12 +119,12 @@ function Body() {
         })
         tl.to("#phone_m1", {
             top: "225%",
-            left: "5%",
+            left: "15%",
             duration: 0.1
         }, 'orange')
         tl.to("#qr-img_m1", {
             top: "225%",
-            left: "5%",
+            left: "15%",
             duration: 0.1
         }, 'orange')
 

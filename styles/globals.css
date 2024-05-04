@@ -690,8 +690,8 @@ body {
     overflow-x: hidden;
 }
 .container {
-    margin: 0;
-    padding: 0;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 @-moz-keyframes myfirst {
@@ -722,21 +722,19 @@ body {
     left: 60%;
   }
 }
-  html,
-body {
-  width: 100%;
+  html {
+  width: 120%;
   height: 100%;
   margin: 0;
   padding: 0;
   outline: 0;
   box-sizing: border-box;
-  /* overflow-x: hidden; */
 }
  
 
 
   nav {
-    width: 100vw;
+    width: 120vw;
     height: 5vh;
     flex-direction: column;
     display: flex;
@@ -816,6 +814,7 @@ body {
     transition: all cubic-bezier(0.19, 1, 0.22, 1)2s;
     visibility: visible;
     padding-top: 10px;
+    margin-left: 80px
   }
 
   #phone_m1 {
@@ -825,6 +824,7 @@ body {
     z-index: 2;
     transition: all cubic-bezier(0.19, 1, 0.22, 1)2s;
     visibility: visible;
+    margin-left: 80px
   }
 
   .one {
@@ -835,7 +835,7 @@ body {
   .two {
     height: 90vh;
     width: 100%;
-
+padding-left: 20px;
   }
 
   .three {
@@ -845,7 +845,7 @@ body {
   }
 
   #input {
-    width: 80vw;
+    width: 90vw;
     height: 5vh;
     border-radius: 5px;
     border-color: rgba(246, 246, 246, 0.945);
@@ -869,7 +869,7 @@ body {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    width: 30vw;
+    width: 20vw;
     height: 4vh;
     border-radius: 5px;
     text-align: center;
@@ -918,7 +918,7 @@ body {
     position: absolute;
     top: 255%;
     background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigB8iI5tb8WSVBuVUGc9UjjB8O0708X7Fdic_4O1LT4CmLHoiwhanLXiRhe82yw0R7LgACQ2IhZaTY0hhmGi0gYp_Ynb49CVzfmXtYHUVKgXXpWvJ_oYT8cB4vzsnJLe3iCwuzj-w6PeYq_JaHmy_CoGoa6nw0FBo-2xLdOPvsLTh_fmYH2xhkaZ-OGQ/s16000/footer_bg.png") no-repeat scroll center 0;
-    width: 100%;
+    width: 120%;
     height: 266px;
   }
 }
